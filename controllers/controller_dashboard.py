@@ -1,5 +1,5 @@
 from flask import render_template, session, url_for, redirect
-from week9.utils.utils import update_user_in_file
+from utils.utils import update_user_in_file
 
 
 def dashboard():

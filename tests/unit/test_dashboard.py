@@ -1,10 +1,9 @@
 import unittest
 
-from week9.utils.utils_dashboard import increment_visit
+from utils.utils_dashboard import increment_visit
 
 
 class TestIncrementVisit(unittest.TestCase):
-
     def test_increment_visit(self):
         # Define a sample user
         user = {"name": "John", "age": 30, "visits": 5}
